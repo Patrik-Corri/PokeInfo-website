@@ -1,0 +1,87 @@
+.text-zone {
+    position: absolute;
+    left: 30%;
+    bottom: 35%;
+    width: 40%;
+    display: block;
+    text-align: center;
+}
+
+.text-zone h1 {
+    color: black;
+    font-size: 80px;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Comic Sans MS', sans-serif;
+    position: relative;
+    animation: fadeIn 1.3s backwards;
+}
+
+
+.text-zone h2 {
+    color: black;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1.3s backwards;
+}
+
+.flat-button {
+    display: inline-block;
+    color: #A4C4E0;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    padding: 10px 18px;
+    border: 2px solid #A4C4E0;
+    margin-top: 25px;
+    animation: fadeIn 1.3s backwards;
+}
+
+.flat-button:hover {
+    background: #A4C4E0;
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    .text-zone {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
+    .text-zone h1 {
+      font-size: 36px;
+    }
+  
+    .text-zone h2 {
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+  
+    .flat-button {
+      font-size: 13px;
+      padding: 8px 14px;
+      letter-spacing: 2px;
+    }
+  }
+  
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

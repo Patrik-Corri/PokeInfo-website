@@ -1,0 +1,14 @@
+{
+ "colors" : [
+    { "name": "Red", "search": "red" },
+    { "name": "Blue", "search": "blue" },
+    { "name": "Green", "search": "green" },
+    { "name": "Yellow", "search": "yellow"},
+    { "name": "Purple", "search": "purple"},
+    { "name": "Pink", "search": "pink"},
+    { "name": "Brown", "search": "brown"},
+    { "name": "White", "search": "white"},
+    { "name": "Grey", "search": "grey"},
+    { "name": "Black", "search": "black" }
+    ]
+ }

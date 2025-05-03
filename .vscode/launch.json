@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PokemonApplication<Pokemon>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pkm.Pokemon.PokemonApplication",
+            "projectName": "Pokemon",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+com\pkm\Pokemon\CorsConfig.class
+com\pkm\Pokemon\CorsConfig$1.class
+com\pkm\Pokemon\PokemonController.class
+com\pkm\Pokemon\PokemonRepository.class
+com\pkm\Pokemon\Pokemon.class
+com\pkm\Pokemon\PokemonApplication.class
+com\pkm\Pokemon\SecurityConfig.class
+com\pkm\Pokemon\PokemonService.class

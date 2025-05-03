@@ -1,0 +1,45 @@
+{   
+    "generations" : 
+    [
+        {
+            "name": "Generation I",
+            "search": "1",
+            "cover": "/generations/gen1.jpg"
+        },
+        {
+            "name": "Generation II",
+            "search": "2",
+            "cover": "/generations/gen2.jpg"
+        },
+        {
+            "name": "Generation III",
+            "search": "3",
+            "cover": "/generations/gen3.jpg"
+        },
+        {
+            "name": "Generation IV",
+            "search": "4",
+            "cover": "/generations/gen4.jpg"
+        },
+        {
+            "name": "Generation V",
+            "search": "5",
+            "cover": "/generations/gen5.jpg"
+        },
+        {
+            "name": "Generation VI",
+            "search": "6",
+            "cover": "/generations/gen6.jpg"
+        },
+        {
+            "name": "Generation VII",
+            "search": "7",
+            "cover": "/generations/gen7.jpg"
+        },
+        {
+            "name": "Generation VIII",
+            "search": "8",
+            "cover": "/generations/gen8.jpg"
+        }
+        ]
+}

@@ -1,0 +1,128 @@
+
+
+.container.generation-page {
+    padding: 40px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.page-title {
+    font-family:'Comic Sans MS', sans-serif;
+}
+
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.generation-box {
+    margin:10px;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.generation-box:nth-child(1) { animation-delay: 0.2s; }
+.generation-box:nth-child(2) { animation-delay: 0.4s; }
+.generation-box:nth-child(3) { animation-delay: 0.6s; }
+.generation-box:nth-child(4) { animation-delay: 0.8s; }
+.generation-box:nth-child(5) { animation-delay: 1s; }
+.generation-box:nth-child(6) { animation-delay: 1.2s; }
+.generation-box:nth-child(7) { animation-delay: 1.4s; }
+.generation-box:nth-child(8) { animation-delay: 1.6s; }
+
+.generation-box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.generation-box::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.6));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.generation-box:hover::after {
+    opacity: 0.85;
+}
+
+
+.generation-image{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.generation-name{
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .container.generation-page {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .generation-box {
+        width: 220px;
+        height: 150px;
+    }
+
+    .generation-name {
+        font-size: 16px;
+        left: 20%;
+    }
+
+    .images-container {
+        gap: 15px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .generation-box {
+        width: 150px;
+        height: 100px;
+    }
+
+    .generation-name {
+        font-size: 14px;
+        left: 10%;
+    }
+
+    .images-container {
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

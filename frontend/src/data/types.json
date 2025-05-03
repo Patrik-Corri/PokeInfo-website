@@ -1,0 +1,96 @@
+
+
+{
+    "types" : [
+        {
+            "name" : "Fire",
+            "cover" : "/types/Fire.png",
+            "search" : "fire"
+        },
+        {
+            "cover" : "/types/Water.png",
+            "name" : "Water",
+            "search" : "water"
+        },
+        {
+            "cover" : "/types/Grass.png",
+            "name" : "Grass",
+            "search" : "grass"
+        },
+        {
+            "cover" : "/types/Electric.png",
+            "name" : "Electric",
+            "search" : "electric"
+        },
+        {
+            "cover" : "/types/Psychic.png",
+            "name" : "Psychic",
+            "search" : "psychic"
+        },
+        {
+            "cover" : "/types/Ice.png",
+            "name" : "Ice",
+            "search" : "ice"
+        },
+        {
+            "cover" : "/types/Bug.png",
+            "name" : "Bug",
+            "search" : "bug"
+        },
+        {
+            "cover" : "/types/Rock.png",
+            "name" : "Rock",
+            "search" : "rock"
+        },
+        {
+            "cover" : "/types/Ghost.png",
+            "name" : "Ghost",
+            "search" : "ghost"
+        },
+        {
+            "cover" : "/types/Dark.png",
+            "name" : "Dark",
+            "search" : "dark"
+        },
+        {
+            "cover" : "/types/Fairy.png",
+            "name" : "Fairy",
+            "search" : "fairy"
+        },
+        {
+            "cover" : "/types/Steel.png",
+            "name" : "Steel",
+            "search" : "steel"
+        },
+        {
+            "cover" : "/types/Fighting.png",
+            "name" : "Fighting",
+            "search" : "fighting"
+        },
+        {
+            "cover" : "/types/Normal.png",
+            "name" : "Normal",
+            "search" : "normal"
+        },
+        {
+            "cover" : "/types/Flying.png",
+            "name" : "Flying",
+            "search" : "flying"
+        },
+        {
+            "cover" : "/types/Ground.png",
+            "name" : "Ground",
+            "search" : "ground"
+        },
+        {
+            "cover" : "/types/Poison.png",
+            "name" : "Poison",
+            "search" : "poison"
+        },
+        {
+            "cover" : "/types/Dragon.png",
+            "name" : "Dragon",
+            "search" : "dragon"
+        }
+    ]
+}
