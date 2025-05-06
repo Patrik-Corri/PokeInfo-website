@@ -69,7 +69,7 @@ export function PokemonData() {
       ) : displayedPokemon.length === 0 ? (
         <p>No Pokémon match your search.</p>
       ) : (
-        <div>
+        <div className="table-wrapper">
           <p className="results-count">{displayedPokemon.length} Pokémon found</p>
           <table>
             <thead>
